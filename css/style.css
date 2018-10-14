@@ -1,0 +1,205 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: content-box;
+}
+@font-face{
+   font-family: 'font1';
+   src: url(../fonts/Sacramento-Regular.ttf);
+}
+html{
+	scroll-behavior: smooth;
+	 overflow-y: scroll;
+	overflow: hidden ;
+}
+header{
+	position: fixed;
+	width: 100%;
+	height: 92px;
+	background: #00000091;
+	
+}
+.menu{
+	width: 100%;
+	height: 100%;
+	    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .menu ul li {
+	    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 18px;
+	color: white;
+    display: inline-block;
+}
+header .menu ul li a {
+	color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: sans-serif;
+    transition: 0.2s;
+	padding: 10px;
+}
+header .menu ul li a:hover {
+	border-bottom: 2px solid white;
+	
+}
+.black{
+	width: 100%;
+	height: 90px;
+	background-color: black
+}
+.home{
+    display: flex;
+    width: 100%;
+    height: 972px;
+    background-image: url(../img/slider.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    flex-direction: column;
+    background-size: cover;
+    align-items: center;
+	
+}
+.main{
+	width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	    margin-top: 90px;
+}
+.main_text{
+	text-align: left;
+    font-size: 90px;
+    font-family: 'font1';
+    text-shadow: 6px 4px 2px rgba(81, 30, 113, 0.85);
+    color: #ffffff;
+}
+.about{
+	width: 100%;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+	flex-direction: column;
+    display: flex;
+    background: url(../img/roman.png) no-repeat;
+	
+}
+.name_of_block{
+	    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 92px;;
+    flex-direction: column;
+    height: 98px;
+}
+.name_of_block h2{
+    color: white;
+    font-size: 74px;
+    font-family: sans-serif;
+}
+.line{
+	width: 454px;
+	height: 3px;
+	background-color: white;
+	
+}
+.main_about{
+	width: 70%;
+	height: 70%;
+	display: flex;
+	justify-content: space-between;
+	
+	align-items: center;
+}
+.info , .photo{
+	width: 45%;
+    height: 49%;
+	display: flex;
+    background-color: #ffffff91;
+    border: 5px solid white;
+	justify-content: space-evenly;
+	flex-direction: column;
+	align-items: center;
+}
+.know{
+	    font-family: sans-serif;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+.lorem{
+	    font-family: sans-serif;
+    width: 90%;
+    text-align: center;
+    font-size: 20px;
+}
+.photo{
+	background: url(../img/6.png);
+	    background-size: 115% 97%;
+    background-repeat: no-repeat;
+	background-color: #ffffff91;
+}
+
+.portfolio{
+	width: 100%;
+	height: 970px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #4b3d6d;
+	flex-direction: column;
+}
+.main_portfolio{
+    width: 62%;
+	height: 70%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.gallery{
+	width: 303px;
+    background-color: white;
+    height: 34%;
+    border: 5px solid white;
+    transition: 0.5s;
+	cursor: pointer;
+	
+}
+.gallery:hover{
+   box-shadow:  0px 0px 69px 8px rgba(0,0,0,0.75);
+}
+.gallery img{
+	white-space: 303px;
+	height: 100%;
+}
+.portfolio_button{
+	    width: 200px;
+    height: 43px;
+    box-shadow: 0px 0px 36px 1px rgba(0,0,0,0.75);
+    font-family: sans-serif;
+    font-size: 17px;
+	transition: 0.3s;
+}
+.portfolio_button:active{
+	box-shadow: 0px 32px 40px -19px rgba(0,0,0,0.75);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
